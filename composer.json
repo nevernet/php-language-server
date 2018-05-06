@@ -1,5 +1,5 @@
 {
-    "name": "felixfbecker/language-server",
+    "name": "nevernet/language-server",
     "description": "PHP Implementation of the Visual Studio Code Language Server Protocol",
     "license": "ISC",
     "keywords": [
@@ -18,13 +18,17 @@
         {
             "name": "Felix Becker",
             "email": "felix.b@outlook.com"
+        },
+        {
+            "name": "Daniel Qin",
+            "email": "xin.qin@qinx.org"
         }
     ],
     "require": {
         "php": "^7.0",
         "composer/xdebug-handler": "^1.0",
         "felixfbecker/advanced-json-rpc": "^3.0.0",
-        "jetbrains/phpstorm-stubs": "dev-master",
+        "jetbrains/phpstorm-stubs": "master",
         "microsoft/tolerant-php-parser": "0.0.*",
         "netresearch/jsonmapper": "^1.0",
         "phpdocumentor/reflection-docblock": "^4.0.0",
